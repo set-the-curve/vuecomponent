@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Dropdown | Vue Component</title>
+    <meta name="description" content="Dead simple Vue components for integrating into your project.">
+    
+    
+    <link rel="preload" href="/assets/css/0.styles.f423223e.css" as="style"><link rel="preload" href="/assets/js/app.f8dbb66d.js" as="script"><link rel="preload" href="/assets/js/6.1ba78fa4.js" as="script"><link rel="preload" href="/assets/js/4.d52e51b3.js" as="script"><link rel="preload" href="/assets/js/35.24c92c39.js" as="script"><link rel="preload" href="/assets/js/16.47b53a42.js" as="script"><link rel="prefetch" href="/assets/js/1.1aa408b3.js"><link rel="prefetch" href="/assets/js/10.f68d01b2.js"><link rel="prefetch" href="/assets/js/11.94cbb6c9.js"><link rel="prefetch" href="/assets/js/12.0cd2de7f.js"><link rel="prefetch" href="/assets/js/13.fa4512c2.js"><link rel="prefetch" href="/assets/js/14.acd5890d.js"><link rel="prefetch" href="/assets/js/15.b07afb4a.js"><link rel="prefetch" href="/assets/js/17.637c40a2.js"><link rel="prefetch" href="/assets/js/18.e5f5499d.js"><link rel="prefetch" href="/assets/js/19.9dc14954.js"><link rel="prefetch" href="/assets/js/2.14940a1e.js"><link rel="prefetch" href="/assets/js/20.c60760d4.js"><link rel="prefetch" href="/assets/js/21.58a5af96.js"><link rel="prefetch" href="/assets/js/22.4804350d.js"><link rel="prefetch" href="/assets/js/23.85cbccad.js"><link rel="prefetch" href="/assets/js/24.7afe7f8a.js"><link rel="prefetch" href="/assets/js/25.7b4efdca.js"><link rel="prefetch" href="/assets/js/26.05fadf9d.js"><link rel="prefetch" href="/assets/js/27.9bf6b7f0.js"><link rel="prefetch" href="/assets/js/28.e41e843f.js"><link rel="prefetch" href="/assets/js/29.8526b10e.js"><link rel="prefetch" href="/assets/js/30.7e7a379c.js"><link rel="prefetch" href="/assets/js/31.4d325423.js"><link rel="prefetch" href="/assets/js/32.cf16190a.js"><link rel="prefetch" href="/assets/js/33.e1d83480.js"><link rel="prefetch" href="/assets/js/34.78d46291.js"><link rel="prefetch" href="/assets/js/36.f21944b0.js"><link rel="prefetch" href="/assets/js/37.904e3119.js"><link rel="prefetch" href="/assets/js/38.a08fd36c.js"><link rel="prefetch" href="/assets/js/39.2854c531.js"><link rel="prefetch" href="/assets/js/40.ff861e69.js"><link rel="prefetch" href="/assets/js/41.298dcca9.js"><link rel="prefetch" href="/assets/js/42.6fcb8a9b.js"><link rel="prefetch" href="/assets/js/43.b9fd3514.js"><link rel="prefetch" href="/assets/js/44.198e94d4.js"><link rel="prefetch" href="/assets/js/45.f425db74.js"><link rel="prefetch" href="/assets/js/46.2bd2a58d.js"><link rel="prefetch" href="/assets/js/47.c6c55158.js"><link rel="prefetch" href="/assets/js/48.eb49b566.js"><link rel="prefetch" href="/assets/js/49.ddca91a9.js"><link rel="prefetch" href="/assets/js/5.52fd29fe.js"><link rel="prefetch" href="/assets/js/50.24d6f8c6.js"><link rel="prefetch" href="/assets/js/51.58d7402b.js"><link rel="prefetch" href="/assets/js/52.957f636b.js"><link rel="prefetch" href="/assets/js/53.f7013478.js"><link rel="prefetch" href="/assets/js/54.92c339c5.js"><link rel="prefetch" href="/assets/js/55.5400c966.js"><link rel="prefetch" href="/assets/js/56.0124e4b5.js"><link rel="prefetch" href="/assets/js/57.8b4a9f40.js"><link rel="prefetch" href="/assets/js/58.9397c983.js"><link rel="prefetch" href="/assets/js/59.992564d3.js"><link rel="prefetch" href="/assets/js/60.e7c20e9d.js"><link rel="prefetch" href="/assets/js/61.957d94fd.js"><link rel="prefetch" href="/assets/js/62.2d03ad2f.js"><link rel="prefetch" href="/assets/js/63.5a733e84.js"><link rel="prefetch" href="/assets/js/64.a78a9e40.js"><link rel="prefetch" href="/assets/js/65.4a8f8929.js"><link rel="prefetch" href="/assets/js/66.bfaae510.js"><link rel="prefetch" href="/assets/js/67.f891b4d7.js"><link rel="prefetch" href="/assets/js/68.ddf4247c.js"><link rel="prefetch" href="/assets/js/69.7338fbd5.js"><link rel="prefetch" href="/assets/js/7.946f1962.js"><link rel="prefetch" href="/assets/js/8.b323d421.js"><link rel="prefetch" href="/assets/js/9.4d85a477.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.f423223e.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Vue Component</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/components/alert.html" class="nav-link">Components</a></div><div class="nav-item"><a href="/layouts/basic/fifty_fifty.html" class="nav-link">Layouts</a></div><div class="nav-item"><a href="/utilities/lazyloading.html" class="nav-link">Utilities</a></div><div class="nav-item"><a href="/integrations/firebase.html" class="nav-link">Integrations</a></div><div class="nav-item"><a href="/mobile/ionic4.html" class="nav-link">Mobile</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/components/alert.html" class="nav-link">Components</a></div><div class="nav-item"><a href="/layouts/basic/fifty_fifty.html" class="nav-link">Layouts</a></div><div class="nav-item"><a href="/utilities/lazyloading.html" class="nav-link">Utilities</a></div><div class="nav-item"><a href="/integrations/firebase.html" class="nav-link">Integrations</a></div><div class="nav-item"><a href="/mobile/ionic4.html" class="nav-link">Mobile</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Action</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Layouts</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>Dropdown</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/components/autocomplete.html" class="sidebar-link">Autocomplete</a></li><li><a href="/components/dropdown.html" class="active sidebar-link">Dropdown</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Visual</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="content default"><h1 id="dropdown"><a href="#dropdown" aria-hidden="true" class="header-anchor">#</a> Dropdown</h1> <div data-v-38e31cb7><button class="btn-primary" data-v-38e31cb7>Option 1</button> <div class="popover-custom" data-v-38e31cb7><ul data-v-38e31cb7><li data-v-38e31cb7>Option 1</li><li data-v-38e31cb7>Option 2</li><li data-v-38e31cb7>Option 3</li></ul></div></div> <div class="language-js extra-class"><pre class="language-js"><code><span class="token operator">&lt;</span>template<span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span>div<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>button ref<span class="token operator">=</span><span class="token string">&quot;showInputButton&quot;</span> <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">&quot;btn-primary&quot;</span> @click<span class="token operator">=</span><span class="token string">&quot;showInput=!showInput;&quot;</span><span class="token operator">&gt;</span><span class="token punctuation">{</span><span class="token punctuation">{</span>option<span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token operator">&lt;</span><span class="token operator">/</span>button<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span>div ref<span class="token operator">=</span><span class="token string">&quot;dropdown&quot;</span> v<span class="token operator">-</span><span class="token keyword">if</span><span class="token operator">=</span><span class="token string">&quot;showInput&quot;</span> <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">&quot;popover-custom&quot;</span><span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span>ul<span class="token operator">&gt;</span>
+        <span class="token operator">&lt;</span>li @mousedown<span class="token punctuation">.</span>prevent<span class="token operator">=</span><span class="token string">&quot;&quot;</span> @mouseup<span class="token punctuation">.</span>prevent<span class="token operator">=</span><span class="token string">&quot;afterClick(item)&quot;</span> v<span class="token operator">-</span><span class="token keyword">for</span><span class="token operator">=</span><span class="token string">&quot;item in items&quot;</span><span class="token operator">&gt;</span><span class="token punctuation">{</span><span class="token punctuation">{</span>item<span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token operator">&lt;</span><span class="token operator">/</span>li<span class="token operator">&gt;</span>
+      <span class="token operator">&lt;</span><span class="token operator">/</span>ul<span class="token operator">&gt;</span>
+    <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+  <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">&gt;</span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>template<span class="token operator">&gt;</span>
+
+<span class="token operator">&lt;</span>script<span class="token operator">&gt;</span>
+<span class="token keyword">import</span> Popper <span class="token keyword">from</span> <span class="token string">'popper.js'</span>
+Popper<span class="token punctuation">.</span>Defaults<span class="token punctuation">.</span>modifiers<span class="token punctuation">.</span>computeStyle<span class="token punctuation">.</span>gpuAcceleration <span class="token operator">=</span> <span class="token boolean">false</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+  name<span class="token punctuation">:</span> <span class="token string">'Dropdown'</span><span class="token punctuation">,</span>
+  <span class="token function">data</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> <span class="token punctuation">{</span>
+      option<span class="token punctuation">:</span> <span class="token string">'Option 1'</span><span class="token punctuation">,</span>
+      showInput<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+      items<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token string">'Option 1'</span><span class="token punctuation">,</span> <span class="token string">'Option 2'</span><span class="token punctuation">,</span> <span class="token string">'Option 3'</span><span class="token punctuation">]</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token function">mounted</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">$nextTick</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">var</span> popper <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Popper</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>$refs<span class="token punctuation">[</span><span class="token string">&quot;showInputButton&quot;</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token keyword">this</span><span class="token punctuation">.</span>$refs<span class="token punctuation">[</span><span class="token string">&quot;dropdown&quot;</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+          placement<span class="token punctuation">:</span> <span class="token string">'bottom-start'</span>
+      <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span>showInput<span class="token operator">=</span><span class="token boolean">false</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  methods<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    afterClick<span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span>item<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span>option <span class="token operator">=</span> item<span class="token punctuation">;</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span>showInput <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">&gt;</span>
+
+<span class="token operator">&lt;</span>style lang<span class="token operator">=</span><span class="token string">&quot;scss&quot;</span> scoped<span class="token operator">&gt;</span>
+
+<span class="token punctuation">.</span>popover<span class="token operator">-</span>custom <span class="token punctuation">{</span>
+  position<span class="token punctuation">:</span> absolute<span class="token punctuation">;</span>
+  z<span class="token operator">-</span>index<span class="token punctuation">:</span> <span class="token number">999</span><span class="token punctuation">;</span>
+  background<span class="token operator">-</span>color<span class="token punctuation">:</span> white<span class="token punctuation">;</span>
+  width<span class="token punctuation">:</span> <span class="token number">200</span>px<span class="token punctuation">;</span>
+  border<span class="token punctuation">:</span> <span class="token number">1</span>px solid #c7c7c7<span class="token punctuation">;</span>
+  box<span class="token operator">-</span>shadow<span class="token punctuation">:</span> <span class="token number">0</span> <span class="token number">5</span>px <span class="token number">20</span>px <span class="token number">0</span> <span class="token function">rgba</span><span class="token punctuation">(</span><span class="token number">21</span><span class="token punctuation">,</span><span class="token number">27</span><span class="token punctuation">,</span><span class="token number">38</span><span class="token punctuation">,</span><span class="token number">.08</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+input<span class="token punctuation">:</span>focus<span class="token punctuation">,</span>
+select<span class="token punctuation">:</span>focus<span class="token punctuation">,</span>
+textarea<span class="token punctuation">:</span>focus<span class="token punctuation">,</span>
+button<span class="token punctuation">:</span>focus <span class="token punctuation">{</span>
+  outline<span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+input<span class="token punctuation">[</span>type<span class="token operator">=</span>text<span class="token punctuation">]</span><span class="token punctuation">,</span> textarea <span class="token punctuation">{</span>
+  outline<span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+  padding<span class="token punctuation">:</span> <span class="token number">0</span>px<span class="token punctuation">;</span>
+  border<span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+  font<span class="token operator">-</span>size<span class="token punctuation">:</span> <span class="token number">1</span>rem <span class="token operator">!</span>important<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+input <span class="token punctuation">{</span>
+  font<span class="token operator">-</span>size<span class="token punctuation">:</span> <span class="token number">0.84</span>rem <span class="token operator">!</span>important<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+input<span class="token punctuation">,</span> select<span class="token punctuation">,</span> textarea<span class="token punctuation">,</span> button<span class="token punctuation">{</span>font<span class="token operator">-</span>family<span class="token punctuation">:</span>inherit<span class="token punctuation">;</span><span class="token punctuation">}</span>
+
+
+input<span class="token punctuation">[</span>type<span class="token operator">=</span>text<span class="token punctuation">]</span><span class="token punctuation">:</span>focus<span class="token punctuation">,</span> textarea<span class="token punctuation">:</span>focus <span class="token punctuation">{</span>
+  box<span class="token operator">-</span>shadow<span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+  border<span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+button <span class="token punctuation">{</span>
+  border<span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+  font<span class="token operator">-</span>size<span class="token punctuation">:</span> <span class="token number">1</span>rem<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token punctuation">.</span>noborder <span class="token punctuation">{</span>
+  border<span class="token punctuation">:</span> none <span class="token operator">!</span>important<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token punctuation">.</span>showInputButton <span class="token punctuation">{</span>
+  cursor<span class="token punctuation">:</span> pointer<span class="token punctuation">;</span>
+  display<span class="token punctuation">:</span> inline<span class="token operator">-</span>block<span class="token punctuation">;</span>
+  border<span class="token punctuation">:</span> <span class="token number">1</span>px solid transparent<span class="token punctuation">;</span>
+  color<span class="token punctuation">:</span> #<span class="token number">999</span><span class="token punctuation">;</span>
+  font<span class="token operator">-</span>weight<span class="token punctuation">:</span> <span class="token number">500</span><span class="token punctuation">;</span>
+  font<span class="token operator">-</span>size<span class="token punctuation">:</span> <span class="token number">1</span>rem<span class="token punctuation">;</span>
+  padding<span class="token punctuation">:</span> <span class="token number">10</span>px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token punctuation">.</span>inputWrapper <span class="token punctuation">{</span>
+  padding<span class="token punctuation">:</span> <span class="token number">10</span>px<span class="token punctuation">;</span>
+  display<span class="token punctuation">:</span> inline<span class="token operator">-</span>block<span class="token punctuation">;</span>
+  border<span class="token punctuation">:</span> <span class="token number">1</span>px solid gray<span class="token punctuation">;</span>
+  border<span class="token operator">-</span>radius<span class="token punctuation">:</span> <span class="token number">3</span>px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token punctuation">.</span>inputField <span class="token punctuation">{</span>
+  display<span class="token punctuation">:</span> inline<span class="token operator">-</span>block<span class="token punctuation">;</span>
+  font<span class="token operator">-</span>weight<span class="token punctuation">:</span> <span class="token number">500</span><span class="token punctuation">;</span>
+  font<span class="token operator">-</span>size<span class="token punctuation">:</span> <span class="token number">1</span>rem<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+ul <span class="token punctuation">{</span>
+  cursor<span class="token punctuation">:</span> pointer<span class="token punctuation">;</span>
+  list<span class="token operator">-</span>style<span class="token operator">-</span>type<span class="token punctuation">:</span> none<span class="token punctuation">;</span>
+  margin<span class="token operator">-</span>block<span class="token operator">-</span>start<span class="token punctuation">:</span> <span class="token number">0</span>em<span class="token punctuation">;</span>
+  margin<span class="token operator">-</span>block<span class="token operator">-</span>end<span class="token punctuation">:</span> <span class="token number">0</span>em<span class="token punctuation">;</span>
+  margin<span class="token operator">-</span>inline<span class="token operator">-</span>start<span class="token punctuation">:</span> <span class="token number">0</span>px<span class="token punctuation">;</span>
+  margin<span class="token operator">-</span>inline<span class="token operator">-</span>end<span class="token punctuation">:</span> <span class="token number">0</span>px<span class="token punctuation">;</span>
+  padding<span class="token operator">-</span>inline<span class="token operator">-</span>start<span class="token punctuation">:</span> <span class="token number">0</span>px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+li <span class="token punctuation">{</span>
+  padding<span class="token punctuation">:</span> <span class="token number">10</span>px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+li<span class="token punctuation">:</span>hover <span class="token punctuation">{</span>
+  color<span class="token punctuation">:</span> white<span class="token punctuation">;</span>
+  background<span class="token operator">-</span>color<span class="token punctuation">:</span> #<span class="token number">4582</span>EC<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token operator">&lt;</span><span class="token operator">/</span>style<span class="token operator">&gt;</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/components/autocomplete.html" class="prev">
+          Autocomplete
+        </a></span> <span class="next"><a href="/components/avatar.html">
+          Avatar
+        </a>
+        →
+      </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.f8dbb66d.js" defer></script><script src="/assets/js/6.1ba78fa4.js" defer></script><script src="/assets/js/4.d52e51b3.js" defer></script><script src="/assets/js/35.24c92c39.js" defer></script><script src="/assets/js/16.47b53a42.js" defer></script>
+  </body>
+</html>
