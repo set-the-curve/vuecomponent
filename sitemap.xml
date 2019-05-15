@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://vuecomponent.com/</loc>
+  <lastmod>2019-05-15T03:51:10+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://vuecomponent.com/components/alert.html</loc>
+  <lastmod>2019-05-15T03:51:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vuecomponent.com/layouts/fifty_fifty.html</loc>
+  <lastmod>2019-05-15T03:51:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vuecomponent.com/utilities/lazyloading.html</loc>
+  <lastmod>2019-05-15T03:51:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vuecomponent.com/integrations/firebase.html</loc>
+  <lastmod>2019-05-15T03:51:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vuecomponent.com/blog.html</loc>
+  <lastmod>2019-05-15T03:51:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://vuecomponent.com/components/button.html</loc>
+  <lastmod>2019-05-15T03:51:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://vuecomponent.com/components/carousel.html</loc>
+  <lastmod>2019-05-15T03:51:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://vuecomponent.com/components/collapse.html</loc>
+  <lastmod>2019-05-15T03:51:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://vuecomponent.com/components/tabs.html</loc>
+  <lastmod>2019-05-15T03:51:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://vuecomponent.com/layouts/centered_content.html</loc>
+  <lastmod>2019-05-15T03:51:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://vuecomponent.com/layouts/404.html</loc>
+  <lastmod>2019-05-15T03:51:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://vuecomponent.com/layouts/login.html</loc>
+  <lastmod>2019-05-15T03:51:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://vuecomponent.com/layouts/signup.html</loc>
+  <lastmod>2019-05-15T03:51:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://vuecomponent.com/utilities/spinner.html</loc>
+  <lastmod>2019-05-15T03:51:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://vuecomponent.com/utilities/typing.html</loc>
+  <lastmod>2019-05-15T03:51:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://vuecomponent.com/integrations/fontawesome.html</loc>
+  <lastmod>2019-05-15T03:51:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://vuecomponent.com/integrations/popperjs.html</loc>
+  <lastmod>2019-05-15T03:51:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://vuecomponent.com/integrations/vuex.html</loc>
+  <lastmod>2019-05-15T03:51:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://vuecomponent.com/components/footer.html</loc>
+  <lastmod>2019-05-15T03:51:10+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://vuecomponent.com/layouts/about.html</loc>
+  <lastmod>2019-05-15T03:51:10+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://vuecomponent.com/components/menu.html</loc>
+  <lastmod>2019-05-15T03:51:10+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://vuecomponent.com/components/navbar.html</loc>
+  <lastmod>2019-05-15T03:51:10+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://vuecomponent.com/layouts/contact.html</loc>
+  <lastmod>2019-05-15T03:51:10+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://vuecomponent.com/layouts/faqs.html</loc>
+  <lastmod>2019-05-15T03:51:10+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://vuecomponent.com/layouts/landing.html</loc>
+  <lastmod>2019-05-15T03:51:10+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://vuecomponent.com/layouts/under_construction.html</loc>
+  <lastmod>2019-05-15T03:51:10+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://vuecomponent.com/components/autocomplete.html</loc>
+  <lastmod>2019-05-15T03:51:10+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://vuecomponent.com/layouts/calendar.html</loc>
+  <lastmod>2019-05-15T03:51:10+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://vuecomponent.com/components/dropdown.html</loc>
+  <lastmod>2019-05-15T03:51:10+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://vuecomponent.com/layouts/form.html</loc>
+  <lastmod>2019-05-15T03:51:10+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://vuecomponent.com/layouts/inbox.html</loc>
+  <lastmod>2019-05-15T03:51:10+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://vuecomponent.com/layouts/table.html</loc>
+  <lastmod>2019-05-15T03:51:10+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://vuecomponent.com/components/avatar.html</loc>
+  <lastmod>2019-05-15T03:51:10+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://vuecomponent.com/layouts/billing_history.html</loc>
+  <lastmod>2019-05-15T03:51:10+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://vuecomponent.com/components/card.html</loc>
+  <lastmod>2019-05-15T03:51:10+00:00</lastmod>
+  <priority>0.17</priority>
+</url>
+<url>
+  <loc>https://vuecomponent.com/components/standout.html</loc>
+  <lastmod>2019-05-15T03:51:10+00:00</lastmod>
+  <priority>0.17</priority>
+</url>
+<url>
+  <loc>https://vuecomponent.com/layouts/edit_profile.html</loc>
+  <lastmod>2019-05-15T03:51:10+00:00</lastmod>
+  <priority>0.17</priority>
+</url>
+<url>
+  <loc>https://vuecomponent.com/layouts/notifications.html</loc>
+  <lastmod>2019-05-15T03:51:10+00:00</lastmod>
+  <priority>0.17</priority>
+</url>
+<url>
+  <loc>https://vuecomponent.com/layouts/profile.html</loc>
+  <lastmod>2019-05-15T03:51:10+00:00</lastmod>
+  <priority>0.17</priority>
+</url>
+
+
+</urlset>
